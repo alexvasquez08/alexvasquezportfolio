@@ -14,8 +14,8 @@ const contactInfo = [
   {
     icon: ExternalLink,
     label: "LinkedIn",
-    value: "linkedin.com/in/alexvasquez",   // UPDATE: your LinkedIn URL
-    href: "https://linkedin.com/in/alexvasquez",
+    value: "linkedin.com/in/alexander-v-b5a127100",
+    href: "https://www.linkedin.com/in/alexander-v-b5a127100",
   },
   {
     icon: Phone,

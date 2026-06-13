@@ -12,7 +12,7 @@ const navLinks = [
 // UPDATE: replace social hrefs with real URLs
 const socials = [
   { icon: Mail,     href: "mailto:alexvasquez08@gmail.com",        label: "Email" },
-  { icon: ExternalLink, href: "https://linkedin.com/in/alexvasquez",   label: "LinkedIn" },
+  { icon: ExternalLink, href: "https://www.linkedin.com/in/alexander-v-b5a127100", label: "LinkedIn" },
   { icon: GitFork,      href: "https://github.com/alexvasquez",        label: "GitHub" },
 ];
 
