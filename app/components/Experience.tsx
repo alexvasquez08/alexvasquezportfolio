@@ -29,7 +29,7 @@ const jobs: Job[] = [
   {
     company: "Centro Cuesta Nacional (CCN) — Dominican Republic",
     role: "Visual Merchandising Manager",
-    period: "Aug 2022 – Jul 2025",
+    period: "Aug 2015 – Jul 2022",
     location: "Dominican Republic",
     description:
       "Served as strategic visual merchandising partner across a 15+ location retail network, connecting HQ standards with regional execution to elevate the customer experience across all touchpoints.",
