@@ -29,7 +29,7 @@ const jobs: Job[] = [
   {
     company: "Centro Cuesta Nacional (CCN) — Dominican Republic",
     role: "Visual Merchandising Manager",
-    period: "2019 – 2021",
+    period: "Aug 2022 – Jul 2025",
     location: "Dominican Republic",
     description:
       "Served as strategic visual merchandising partner across a 15+ location retail network, connecting HQ standards with regional execution to elevate the customer experience across all touchpoints.",
@@ -44,7 +44,7 @@ const jobs: Job[] = [
   {
     company: "Aéropostale — Colorado",
     role: "Store Manager",
-    period: "2016 – 2018",
+    period: "Jan 2013 – May 2015",
     location: "Colorado, USA",
     description:
       "Managed full store operations and team development at a high-volume Aéropostale location, consistently meeting daily revenue goals through data-driven decision-making and a customer-first culture.",
