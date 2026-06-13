@@ -9,12 +9,12 @@ const images = [
   {
     src: "/vm/vm-01.jpg",
     alt: "Visual merchandising wall display — Mondino, Dominican Republic",
-    caption: "Wall presentation — color-blocked apparel display",
+    caption: "Wall presentation — color-blocked womenswear display, Mondino",
   },
   {
     src: "/vm/vm-02.jpg",
     alt: "Close-up merchandising detail — layered garment presentation",
-    caption: "Layered garment presentation with folding detail",
+    caption: "Layered garment presentation with detail folding",
   },
   {
     src: "/vm/vm-03.jpg",
@@ -35,6 +35,56 @@ const images = [
     src: "/vm/vm-06.jpg",
     alt: "Visual merchandising floor display — folded and hanging product",
     caption: "Floor display — hanging + folded product coordination",
+  },
+  {
+    src: "/vm/vm-07.JPG",
+    alt: "Mondino womenswear wall — full presentation with tropical backdrop",
+    caption: "Full womenswear wall set — tropical backdrop, Mondino",
+  },
+  {
+    src: "/vm/vm-08.JPG",
+    alt: "Side angle of Mondino womenswear wall — multi-level hanging and folding",
+    caption: "Multi-level wall — hanging & folded womenswear, side view",
+  },
+  {
+    src: "/vm/vm-09.png",
+    alt: "Boys department floor display — colorful tops and shorts with Hot Hot signage",
+    caption: "Boys floor set — seasonal color story with promotional signage",
+  },
+  {
+    src: "/vm/vm-10.png",
+    alt: "Women's boutique wall — curated hanging display with accessories",
+    caption: "Women's wall — curated outfit pairings with accessories styling",
+  },
+  {
+    src: "/vm/vm-11.png",
+    alt: "Storefront window display — night shot with mannequins and bamboo backdrop",
+    caption: "Window display — nature-theme mannequin styling, night view",
+  },
+  {
+    src: "/vm/vm-12.png",
+    alt: "Women's department gondola — denim and tops with Oferta promotional flags",
+    caption: "Women's gondola — denim-forward set with promotional callouts",
+  },
+  {
+    src: "/vm/vm-13.png",
+    alt: "Women's round fixture — blush and white apparel with handbag styling",
+    caption: "Women's round fixture — neutral color story with accessory props",
+  },
+  {
+    src: "/vm/vm-14.jpeg",
+    alt: "Men's denim department — aerial view with folded tables and mannequins",
+    caption: "Men's denim floor — folded tables with mannequin brand imagery",
+  },
+  {
+    src: "/vm/vm-15.jpeg",
+    alt: "Old Navy — full store floor view with mannequin groupings on platforms",
+    caption: "Old Navy store floor — mannequin platform groupings, full view",
+  },
+  {
+    src: "/vm/vm-16.png",
+    alt: "Denim wall — light and dark wash jeans folded by color and size",
+    caption: "Denim wall — precision folding, color and wash separation",
   },
 ];
 
