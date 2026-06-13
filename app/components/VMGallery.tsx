@@ -126,7 +126,7 @@ export default function VMGallery() {
           <button
             key={img.src}
             onClick={() => setLightbox(i)}
-            className="group relative aspect-[4/3] overflow-hidden rounded-xl bg-[#1a1a1a] focus:outline-none focus-visible:ring-2 focus-visible:ring-orange-500"
+            className="group relative aspect-[4/3] overflow-hidden rounded-xl bg-[#1a1a1a] focus:outline-none focus-visible:ring-2 focus-visible:ring-orange-700"
             aria-label={`Open image: ${img.alt}`}
           >
             <Image
@@ -165,7 +165,7 @@ export default function VMGallery() {
           {/* Prev */}
           <button
             onClick={(e) => { e.stopPropagation(); prev(); }}
-            className="absolute left-4 top-1/2 -translate-y-1/2 w-11 h-11 rounded-full bg-white/10 hover:bg-orange-500/80 text-white flex items-center justify-center transition-colors z-10"
+            className="absolute left-4 top-1/2 -translate-y-1/2 w-11 h-11 rounded-full bg-white/10 hover:bg-orange-700/80 text-white flex items-center justify-center transition-colors z-10"
             aria-label="Previous image"
           >
             <ChevronLeft size={22} />
@@ -174,7 +174,7 @@ export default function VMGallery() {
           {/* Next */}
           <button
             onClick={(e) => { e.stopPropagation(); next(); }}
-            className="absolute right-4 top-1/2 -translate-y-1/2 w-11 h-11 rounded-full bg-white/10 hover:bg-orange-500/80 text-white flex items-center justify-center transition-colors z-10"
+            className="absolute right-4 top-1/2 -translate-y-1/2 w-11 h-11 rounded-full bg-white/10 hover:bg-orange-700/80 text-white flex items-center justify-center transition-colors z-10"
             aria-label="Next image"
           >
             <ChevronRight size={22} />
@@ -212,7 +212,7 @@ export default function VMGallery() {
                   onClick={() => setLightbox(i)}
                   className={`relative w-14 h-10 rounded-md overflow-hidden shrink-0 transition-all duration-150 ${
                     i === lightbox
-                      ? "ring-2 ring-orange-500 opacity-100"
+                      ? "ring-2 ring-orange-700 opacity-100"
                       : "opacity-40 hover:opacity-70"
                   }`}
                   aria-label={`Go to image ${i + 1}`}

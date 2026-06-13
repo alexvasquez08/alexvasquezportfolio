@@ -27,7 +27,7 @@ export default function About() {
               <span className="text-white font-semibold">15 years</span> of
               progressive experience in high-volume retail environments. My
               career has been defined by a relentless focus on{" "}
-              <span className="text-orange-400 font-medium">
+              <span className="text-orange-600 font-medium">
                 store performance, visual execution
               </span>
               , and building teams that consistently exceed expectations.
@@ -42,7 +42,7 @@ export default function About() {
             </p>
             <p>
               I bring a data-informed approach to operations — leveraging tools
-              like <span className="text-orange-400 font-medium">Power&nbsp;BI</span>,
+              like <span className="text-orange-600 font-medium">Power&nbsp;BI</span>,
               Medallia, and Workday to translate insights into action. My passion
               lies at the intersection of{" "}
               <span className="text-white font-semibold">
@@ -67,7 +67,7 @@ export default function About() {
               ].map((tag) => (
                 <span
                   key={tag}
-                  className="bg-orange-500/10 border border-orange-500/20 text-orange-400 text-xs font-medium px-3 py-1.5 rounded-full"
+                  className="bg-orange-700/10 border border-orange-700/20 text-orange-600 text-xs font-medium px-3 py-1.5 rounded-full"
                 >
                   {tag}
                 </span>
@@ -82,8 +82,8 @@ export default function About() {
                 key={label}
                 className="card-hover bg-[#161616] border border-white/5 rounded-2xl p-6 flex flex-col items-center text-center gap-3"
               >
-                <div className="w-11 h-11 bg-orange-500/10 rounded-xl flex items-center justify-center">
-                  <Icon size={20} className="text-orange-500" />
+                <div className="w-11 h-11 bg-orange-700/10 rounded-xl flex items-center justify-center">
+                  <Icon size={20} className="text-orange-700" />
                 </div>
                 <p className="text-3xl font-bold text-white">{value}</p>
                 <p className="text-gray-500 text-sm">{label}</p>

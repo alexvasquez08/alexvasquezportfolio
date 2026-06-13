@@ -80,17 +80,17 @@ export default function Tools() {
         <div className="grid lg:grid-cols-2 gap-12">
           {/* Certifications */}
           <div>
-            <h3 className="text-xs font-bold uppercase tracking-widest text-orange-500 mb-6">
+            <h3 className="text-xs font-bold uppercase tracking-widest text-orange-700 mb-6">
               Certifications & Credentials
             </h3>
             <div className="space-y-4">
               {certifications.map((cert) => (
                 <div
                   key={cert.title}
-                  className="card-hover flex items-start gap-4 bg-[#141414] border border-white/5 hover:border-orange-500/20 rounded-xl p-5"
+                  className="card-hover flex items-start gap-4 bg-[#141414] border border-white/5 hover:border-orange-700/20 rounded-xl p-5"
                 >
-                  <div className="w-10 h-10 bg-orange-500/10 rounded-xl flex items-center justify-center shrink-0">
-                    <Award size={18} className="text-orange-500" />
+                  <div className="w-10 h-10 bg-orange-700/10 rounded-xl flex items-center justify-center shrink-0">
+                    <Award size={18} className="text-orange-700" />
                   </div>
                   <div className="flex-1 min-w-0">
                     <p className="text-white font-semibold text-sm leading-snug">
@@ -98,7 +98,7 @@ export default function Tools() {
                     </p>
                     <p className="text-gray-500 text-xs mt-1">{cert.issuer}</p>
                   </div>
-                  <span className="text-xs text-orange-400 font-medium shrink-0 bg-orange-500/10 px-2.5 py-1 rounded-full">
+                  <span className="text-xs text-orange-600 font-medium shrink-0 bg-orange-700/10 px-2.5 py-1 rounded-full">
                     {cert.year}
                   </span>
                 </div>
@@ -108,16 +108,16 @@ export default function Tools() {
 
           {/* Tools proficiency */}
           <div>
-            <h3 className="text-xs font-bold uppercase tracking-widest text-orange-500 mb-6">
+            <h3 className="text-xs font-bold uppercase tracking-widest text-orange-700 mb-6">
               Tools & Platforms
             </h3>
             <div className="grid grid-cols-2 gap-3">
               {tools.map((tool) => (
                 <div
                   key={tool}
-                  className="flex items-center gap-2.5 bg-[#141414] border border-white/5 rounded-xl px-4 py-3 text-gray-300 text-sm font-medium hover:border-orange-500/20 transition-colors"
+                  className="flex items-center gap-2.5 bg-[#141414] border border-white/5 rounded-xl px-4 py-3 text-gray-300 text-sm font-medium hover:border-orange-700/20 transition-colors"
                 >
-                  <CheckCircle2 size={14} className="text-orange-500 shrink-0" />
+                  <CheckCircle2 size={14} className="text-orange-700 shrink-0" />
                   {tool}
                 </div>
               ))}

@@ -34,9 +34,9 @@ export default function Navbar() {
         {/* Logo / name */}
         <a
           href="#hero"
-          className="text-white font-bold text-lg tracking-tight hover:text-orange-500 transition-colors"
+          className="text-white font-bold text-lg tracking-tight hover:text-orange-700 transition-colors"
         >
-          AV<span className="text-orange-500">.</span>
+          AV<span className="text-orange-700">.</span>
         </a>
 
         {/* Desktop links */}
@@ -45,7 +45,7 @@ export default function Navbar() {
             <li key={link.href}>
               <a
                 href={link.href}
-                className="text-sm text-gray-400 hover:text-orange-500 transition-colors duration-200 font-medium"
+                className="text-sm text-gray-400 hover:text-orange-700 transition-colors duration-200 font-medium"
               >
                 {link.label}
               </a>
@@ -56,14 +56,14 @@ export default function Navbar() {
         {/* CTA */}
         <a
           href="#contact"
-          className="hidden md:inline-flex items-center gap-2 bg-orange-500 hover:bg-orange-600 text-white text-sm font-semibold px-5 py-2.5 rounded-full transition-colors duration-200"
+          className="hidden md:inline-flex items-center gap-2 bg-orange-700 hover:bg-orange-800 text-white text-sm font-semibold px-5 py-2.5 rounded-full transition-colors duration-200"
         >
           Hire Me
         </a>
 
         {/* Mobile burger */}
         <button
-          className="md:hidden text-gray-300 hover:text-orange-500 transition-colors"
+          className="md:hidden text-gray-300 hover:text-orange-700 transition-colors"
           onClick={() => setOpen(!open)}
           aria-label="Toggle menu"
         >
@@ -79,7 +79,7 @@ export default function Navbar() {
               key={link.href}
               href={link.href}
               onClick={() => setOpen(false)}
-              className="text-gray-300 hover:text-orange-500 transition-colors font-medium"
+              className="text-gray-300 hover:text-orange-700 transition-colors font-medium"
             >
               {link.label}
             </a>
@@ -87,7 +87,7 @@ export default function Navbar() {
           <a
             href="#contact"
             onClick={() => setOpen(false)}
-            className="mt-2 bg-orange-500 hover:bg-orange-600 text-white text-sm font-semibold px-5 py-2.5 rounded-full text-center transition-colors"
+            className="mt-2 bg-orange-700 hover:bg-orange-800 text-white text-sm font-semibold px-5 py-2.5 rounded-full text-center transition-colors"
           >
             Hire Me
           </a>

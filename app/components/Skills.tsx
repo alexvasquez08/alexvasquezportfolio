@@ -69,17 +69,17 @@ export default function Skills() {
         <div className="space-y-12">
           {grouped.map(([cat, items]) => (
             <div key={cat}>
-              <h3 className="text-xs font-bold uppercase tracking-widest text-orange-500 mb-5">
+              <h3 className="text-xs font-bold uppercase tracking-widest text-orange-700 mb-5">
                 {categoryLabel[cat]}
               </h3>
               <div className="grid grid-cols-2 sm:grid-cols-3 lg:grid-cols-5 gap-4">
                 {items.map(({ icon: Icon, label }) => (
                   <div
                     key={label}
-                    className="card-hover group bg-[#141414] border border-white/5 hover:border-orange-500/30 rounded-xl p-5 flex flex-col items-center text-center gap-3 cursor-default"
+                    className="card-hover group bg-[#141414] border border-white/5 hover:border-orange-700/30 rounded-xl p-5 flex flex-col items-center text-center gap-3 cursor-default"
                   >
-                    <div className="w-10 h-10 bg-orange-500/10 group-hover:bg-orange-500/20 rounded-xl flex items-center justify-center transition-colors">
-                      <Icon size={19} className="text-orange-500" />
+                    <div className="w-10 h-10 bg-orange-700/10 group-hover:bg-orange-700/20 rounded-xl flex items-center justify-center transition-colors">
+                      <Icon size={19} className="text-orange-700" />
                     </div>
                     <span className="text-gray-300 text-sm font-medium leading-snug">
                       {label}

@@ -25,9 +25,9 @@ export default function Footer() {
           <div>
             <a
               href="#hero"
-              className="text-white font-bold text-xl tracking-tight hover:text-orange-500 transition-colors"
+              className="text-white font-bold text-xl tracking-tight hover:text-orange-700 transition-colors"
             >
-              AV<span className="text-orange-500">.</span>
+              AV<span className="text-orange-700">.</span>
             </a>
             <p className="text-gray-600 text-xs mt-1.5 max-w-xs">
               {/* UPDATE: your short tagline / copyright year */}
@@ -41,7 +41,7 @@ export default function Footer() {
               <a
                 key={link.href}
                 href={link.href}
-                className="text-gray-600 hover:text-orange-500 text-sm transition-colors"
+                className="text-gray-600 hover:text-orange-700 text-sm transition-colors"
               >
                 {link.label}
               </a>
@@ -57,7 +57,7 @@ export default function Footer() {
                 target="_blank"
                 rel="noopener noreferrer"
                 aria-label={label}
-                className="w-9 h-9 rounded-full bg-white/5 hover:bg-orange-500/15 hover:text-orange-500 text-gray-500 flex items-center justify-center transition-all duration-200"
+                className="w-9 h-9 rounded-full bg-white/5 hover:bg-orange-700/15 hover:text-orange-700 text-gray-500 flex items-center justify-center transition-all duration-200"
               >
                 <Icon size={15} />
               </a>

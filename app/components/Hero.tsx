@@ -10,7 +10,7 @@ export default function Hero() {
     >
       {/* Background gradient orbs */}
       <div className="absolute inset-0 pointer-events-none">
-        <div className="absolute top-1/4 left-1/2 -translate-x-1/2 -translate-y-1/2 w-[600px] h-[600px] bg-orange-500/8 rounded-full blur-[120px]" />
+        <div className="absolute top-1/4 left-1/2 -translate-x-1/2 -translate-y-1/2 w-[600px] h-[600px] bg-orange-700/8 rounded-full blur-[120px]" />
         <div className="absolute bottom-0 right-0 w-[400px] h-[400px] bg-orange-700/5 rounded-full blur-[100px]" />
       </div>
 
@@ -27,8 +27,8 @@ export default function Hero() {
       {/* Content */}
       <div className="relative z-10 max-w-3xl mx-auto">
         {/* Availability badge */}
-        <div className="animate-fadeIn inline-flex items-center gap-2 bg-orange-500/10 border border-orange-500/30 text-orange-400 text-xs font-semibold px-4 py-1.5 rounded-full mb-8 tracking-wide uppercase">
-          <span className="w-1.5 h-1.5 bg-orange-400 rounded-full animate-pulse" />
+        <div className="animate-fadeIn inline-flex items-center gap-2 bg-orange-700/10 border border-orange-700/30 text-orange-600 text-xs font-semibold px-4 py-1.5 rounded-full mb-8 tracking-wide uppercase">
+          <span className="w-1.5 h-1.5 bg-orange-600 rounded-full animate-pulse" />
           {/* UPDATE: change "Open to Opportunities" to reflect your current status */}
           Open to Opportunities
         </div>
@@ -41,7 +41,7 @@ export default function Hero() {
         </h1>
 
         {/* Title */}
-        <p className="animate-fadeInUp delay-100 text-lg sm:text-xl text-orange-400 font-semibold mb-5 tracking-wide uppercase">
+        <p className="animate-fadeInUp delay-100 text-lg sm:text-xl text-orange-600 font-semibold mb-5 tracking-wide uppercase">
           {/* UPDATE: your professional title */}
           Retail Operations &amp; Visual Merchandising Leader
         </p>
@@ -57,14 +57,14 @@ export default function Hero() {
         <div className="animate-fadeInUp delay-300 flex flex-col sm:flex-row items-center justify-center gap-4">
           <a
             href="#resume"
-            className="group flex items-center gap-2 bg-orange-500 hover:bg-orange-600 text-white font-semibold px-7 py-3.5 rounded-full transition-all duration-200 shadow-[0_0_24px_rgba(249,115,22,0.3)] hover:shadow-[0_0_32px_rgba(249,115,22,0.45)]"
+            className="group flex items-center gap-2 bg-orange-700 hover:bg-orange-800 text-white font-semibold px-7 py-3.5 rounded-full transition-all duration-200 shadow-[0_0_24px_rgba(194,65,12,0.3)] hover:shadow-[0_0_32px_rgba(194,65,12,0.45)]"
           >
             <FileText size={17} />
             View Resume
           </a>
           <a
             href="#contact"
-            className="flex items-center gap-2 border border-white/20 hover:border-orange-500/60 text-white hover:text-orange-400 font-semibold px-7 py-3.5 rounded-full transition-all duration-200"
+            className="flex items-center gap-2 border border-white/20 hover:border-orange-700/60 text-white hover:text-orange-600 font-semibold px-7 py-3.5 rounded-full transition-all duration-200"
           >
             <Mail size={17} />
             Contact Me
@@ -75,7 +75,7 @@ export default function Hero() {
       {/* Scroll indicator */}
       <a
         href="#about"
-        className="absolute bottom-10 left-1/2 -translate-x-1/2 text-gray-600 hover:text-orange-500 transition-colors animate-bounce"
+        className="absolute bottom-10 left-1/2 -translate-x-1/2 text-gray-600 hover:text-orange-700 transition-colors animate-bounce"
         aria-label="Scroll down"
       >
         <ArrowDown size={22} />

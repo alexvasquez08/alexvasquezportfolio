@@ -75,12 +75,12 @@ export default function Portfolio() {
             return (
               <div
                 key={project.title}
-                className="card-hover group bg-[#141414] border border-white/5 hover:border-orange-500/25 rounded-2xl p-6 flex flex-col gap-4 cursor-default"
+                className="card-hover group bg-[#141414] border border-white/5 hover:border-orange-700/25 rounded-2xl p-6 flex flex-col gap-4 cursor-default"
               >
                 {/* Icon + category */}
                 <div className="flex items-center justify-between">
-                  <div className="w-11 h-11 bg-orange-500/10 group-hover:bg-orange-500/20 rounded-xl flex items-center justify-center transition-colors">
-                    <Icon size={20} className="text-orange-500" />
+                  <div className="w-11 h-11 bg-orange-700/10 group-hover:bg-orange-700/20 rounded-xl flex items-center justify-center transition-colors">
+                    <Icon size={20} className="text-orange-700" />
                   </div>
                   <span className="text-xs text-gray-600 uppercase tracking-wider font-medium">
                     {project.category}
@@ -114,7 +114,7 @@ export default function Portfolio() {
 
           {/* CTA card */}
           <div className="bg-[#141414] border border-dashed border-white/10 rounded-2xl p-6 flex flex-col items-center justify-center text-center gap-3 min-h-[200px]">
-            <ArrowUpRight size={24} className="text-orange-500/40" />
+            <ArrowUpRight size={24} className="text-orange-700/40" />
             <p className="text-gray-600 text-sm">
               {/* UPDATE: link to case studies, Behance, LinkedIn, etc. */}
               More case studies coming soon

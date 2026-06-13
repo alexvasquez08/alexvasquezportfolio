@@ -3,8 +3,8 @@
 :root {
   --background: #0a0a0a;
   --foreground: #e5e5e5;
-  --orange: #f97316;
-  --orange-dark: #ea6c00;
+  --orange: #c2410c;
+  --orange-dark: #9a3412;
 }
 
 @theme inline {
@@ -27,7 +27,7 @@ body {
 /* Custom scrollbar */
 ::-webkit-scrollbar { width: 5px; }
 ::-webkit-scrollbar-track { background: #111; }
-::-webkit-scrollbar-thumb { background: #f97316; border-radius: 3px; }
+::-webkit-scrollbar-thumb { background: #c2410c; border-radius: 3px; }
 
 /* Animations */
 @keyframes fadeInUp {
@@ -67,7 +67,7 @@ body {
 
 /* Gradient text */
 .gradient-text {
-  background: linear-gradient(135deg, #f97316, #fb923c);
+  background: linear-gradient(135deg, #c2410c, #ea580c);
   -webkit-background-clip: text;
   -webkit-text-fill-color: transparent;
   background-clip: text;
@@ -77,7 +77,7 @@ body {
 .section-accent {
   width: 48px;
   height: 3px;
-  background: #f97316;
+  background: #c2410c;
   border-radius: 2px;
   display: block;
   margin-bottom: 1.25rem;

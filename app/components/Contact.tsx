@@ -63,16 +63,16 @@ export default function Contact() {
                 href={href}
                 target={href.startsWith("http") ? "_blank" : undefined}
                 rel="noopener noreferrer"
-                className="group flex items-center gap-4 bg-[#141414] border border-white/5 hover:border-orange-500/30 rounded-xl px-5 py-4 transition-all"
+                className="group flex items-center gap-4 bg-[#141414] border border-white/5 hover:border-orange-700/30 rounded-xl px-5 py-4 transition-all"
               >
-                <div className="w-10 h-10 bg-orange-500/10 group-hover:bg-orange-500/20 rounded-xl flex items-center justify-center shrink-0 transition-colors">
-                  <Icon size={18} className="text-orange-500" />
+                <div className="w-10 h-10 bg-orange-700/10 group-hover:bg-orange-700/20 rounded-xl flex items-center justify-center shrink-0 transition-colors">
+                  <Icon size={18} className="text-orange-700" />
                 </div>
                 <div>
                   <p className="text-xs text-gray-600 uppercase tracking-wide font-medium mb-0.5">
                     {label}
                   </p>
-                  <p className="text-gray-300 text-sm font-medium group-hover:text-orange-400 transition-colors">
+                  <p className="text-gray-300 text-sm font-medium group-hover:text-orange-600 transition-colors">
                     {value}
                   </p>
                 </div>
@@ -82,15 +82,15 @@ export default function Contact() {
 
           {/* Contact form */}
           {sent ? (
-            <div className="bg-[#141414] border border-orange-500/25 rounded-2xl p-10 flex flex-col items-center justify-center text-center gap-4">
-              <CheckCircle2 size={40} className="text-orange-500" />
+            <div className="bg-[#141414] border border-orange-700/25 rounded-2xl p-10 flex flex-col items-center justify-center text-center gap-4">
+              <CheckCircle2 size={40} className="text-orange-700" />
               <h3 className="text-white font-bold text-xl">Message Sent!</h3>
               <p className="text-gray-500 text-sm max-w-xs">
                 Thank you for reaching out. I&apos;ll get back to you within 24 hours.
               </p>
               <button
                 onClick={() => setSent(false)}
-                className="mt-2 text-sm text-orange-500 hover:text-orange-400 font-medium"
+                className="mt-2 text-sm text-orange-700 hover:text-orange-600 font-medium"
               >
                 Send another message
               </button>
@@ -109,7 +109,7 @@ export default function Contact() {
                     type="text"
                     required
                     placeholder="Jane Smith"
-                    className="w-full bg-[#1a1a1a] border border-white/8 text-gray-300 placeholder-gray-700 rounded-xl px-4 py-3 text-sm focus:outline-none focus:border-orange-500/50 transition-colors"
+                    className="w-full bg-[#1a1a1a] border border-white/8 text-gray-300 placeholder-gray-700 rounded-xl px-4 py-3 text-sm focus:outline-none focus:border-orange-700/50 transition-colors"
                   />
                 </div>
                 <div>
@@ -120,7 +120,7 @@ export default function Contact() {
                     type="email"
                     required
                     placeholder="jane@company.com"
-                    className="w-full bg-[#1a1a1a] border border-white/8 text-gray-300 placeholder-gray-700 rounded-xl px-4 py-3 text-sm focus:outline-none focus:border-orange-500/50 transition-colors"
+                    className="w-full bg-[#1a1a1a] border border-white/8 text-gray-300 placeholder-gray-700 rounded-xl px-4 py-3 text-sm focus:outline-none focus:border-orange-700/50 transition-colors"
                   />
                 </div>
               </div>
@@ -133,7 +133,7 @@ export default function Contact() {
                   type="text"
                   required
                   placeholder="Retail Leadership Opportunity"
-                  className="w-full bg-[#1a1a1a] border border-white/8 text-gray-300 placeholder-gray-700 rounded-xl px-4 py-3 text-sm focus:outline-none focus:border-orange-500/50 transition-colors"
+                  className="w-full bg-[#1a1a1a] border border-white/8 text-gray-300 placeholder-gray-700 rounded-xl px-4 py-3 text-sm focus:outline-none focus:border-orange-700/50 transition-colors"
                 />
               </div>
 
@@ -145,13 +145,13 @@ export default function Contact() {
                   required
                   rows={5}
                   placeholder="Tell me about the opportunity or how I can help..."
-                  className="w-full bg-[#1a1a1a] border border-white/8 text-gray-300 placeholder-gray-700 rounded-xl px-4 py-3 text-sm focus:outline-none focus:border-orange-500/50 transition-colors resize-none"
+                  className="w-full bg-[#1a1a1a] border border-white/8 text-gray-300 placeholder-gray-700 rounded-xl px-4 py-3 text-sm focus:outline-none focus:border-orange-700/50 transition-colors resize-none"
                 />
               </div>
 
               <button
                 type="submit"
-                className="w-full flex items-center justify-center gap-2 bg-orange-500 hover:bg-orange-600 text-white font-semibold py-3.5 rounded-xl transition-all duration-200 shadow-[0_0_20px_rgba(249,115,22,0.2)] hover:shadow-[0_0_28px_rgba(249,115,22,0.35)]"
+                className="w-full flex items-center justify-center gap-2 bg-orange-700 hover:bg-orange-800 text-white font-semibold py-3.5 rounded-xl transition-all duration-200 shadow-[0_0_20px_rgba(194,65,12,0.2)] hover:shadow-[0_0_28px_rgba(194,65,12,0.35)]"
               >
                 <Send size={16} />
                 Send Message

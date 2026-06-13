@@ -1,7 +1,17 @@
 {
   "permissions": {
     "allow": [
-      "Bash(npx create-next-app@latest . --typescript --tailwind --app --no-eslint --no-src-dir --import-alias \"@/*\" --yes)"
+      "Bash(npx create-next-app@latest . --typescript --tailwind --app --no-eslint --no-src-dir --import-alias \"@/*\" --yes)",
+      "Bash(npm install *)",
+      "Bash(npm run *)",
+      "mcp__Claude_Preview__preview_start",
+      "Bash(cp \"/Users/frequency108/Desktop/HDEX/VM standards/IMG_2002.heic\" \"/Users/frequency108/Desktop/alexvasquezportfolio/public/vm/vm-01.heic\")",
+      "Bash(cp \"/Users/frequency108/Desktop/HDEX/VM standards/IMG_2529.HEIC\" \"/Users/frequency108/Desktop/alexvasquezportfolio/public/vm/vm-02.heic\")",
+      "Bash(cp \"/Users/frequency108/Desktop/HDEX/VM standards/IMG_4350.HEIC\" \"/Users/frequency108/Desktop/alexvasquezportfolio/public/vm/vm-03.heic\")",
+      "Bash(cp \"/Users/frequency108/Desktop/HDEX/Lex/Visual Merch/VM/IMG_3243.HEIC\" \"/Users/frequency108/Desktop/alexvasquezportfolio/public/vm/vm-04.heic\")",
+      "Bash(cp \"/Users/frequency108/Desktop/HDEX/Lex/Visual Merch/Iphone purge VM/IMG_0551.HEIC\" \"/Users/frequency108/Desktop/alexvasquezportfolio/public/vm/vm-05.heic\")",
+      "Bash(sips --version)",
+      "Bash(curl -s http://localhost:3000)"
     ]
   }
 }
